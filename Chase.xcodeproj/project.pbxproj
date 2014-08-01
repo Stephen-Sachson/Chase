@@ -200,8 +200,7 @@
 		0D3A35AB198B45DD004897DB /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D3A35AA198B45DD004897DB /* LICENSE_Chipmunk.txt */; };
 		0D3A35AF198B45DD004897DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35AE198B45DD004897DB /* main.m */; };
 		0D3A35B3198B45DD004897DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35B2198B45DD004897DB /* AppDelegate.m */; };
-		0D3A35B6198B45DD004897DB /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35B5198B45DD004897DB /* HelloWorldScene.m */; };
-		0D3A35B9198B45DD004897DB /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35B8198B45DD004897DB /* IntroScene.m */; };
+		0D3A35B9198B45DD004897DB /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35B8198B45DD004897DB /* PlayScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -609,10 +608,8 @@
 		0D3A35AE198B45DD004897DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		0D3A35B1198B45DD004897DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		0D3A35B2198B45DD004897DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		0D3A35B4198B45DD004897DB /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		0D3A35B5198B45DD004897DB /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
-		0D3A35B7198B45DD004897DB /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
-		0D3A35B8198B45DD004897DB /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		0D3A35B7198B45DD004897DB /* PlayScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlayScene.h; path = Classes/PlayScene.h; sourceTree = "<group>"; };
+		0D3A35B8198B45DD004897DB /* PlayScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PlayScene.m; path = Classes/PlayScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1425,10 +1422,8 @@
 			children = (
 				0D3A35B1198B45DD004897DB /* AppDelegate.h */,
 				0D3A35B2198B45DD004897DB /* AppDelegate.m */,
-				0D3A35B4198B45DD004897DB /* HelloWorldScene.h */,
-				0D3A35B5198B45DD004897DB /* HelloWorldScene.m */,
-				0D3A35B7198B45DD004897DB /* IntroScene.h */,
-				0D3A35B8198B45DD004897DB /* IntroScene.m */,
+				0D3A35B7198B45DD004897DB /* PlayScene.h */,
+				0D3A35B8198B45DD004897DB /* PlayScene.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1555,7 +1550,6 @@
 				0D3A338C198B45DA004897DB /* CCEffect.m in Sources */,
 				0D3A352A198B45DC004897DB /* CCBAnimationManager.m in Sources */,
 				0D3A3498198B45DB004897DB /* CCVertex.m in Sources */,
-				0D3A35B6198B45DD004897DB /* HelloWorldScene.m in Sources */,
 				0D3A33CC198B45DA004897DB /* CCAnimationCache.m in Sources */,
 				0D3A3486198B45DB004897DB /* base64.c in Sources */,
 				0D3A340F198B45DB004897DB /* CCParticleSystemBase.m in Sources */,
@@ -1660,7 +1654,7 @@
 				0D3A3404198B45DB004897DB /* CCParticleBatchNode.m in Sources */,
 				0D3A349E198B45DB004897DB /* NSAttributedString+CCAdditions.m in Sources */,
 				0D3A35AF198B45DD004897DB /* main.m in Sources */,
-				0D3A35B9198B45DD004897DB /* IntroScene.m in Sources */,
+				0D3A35B9198B45DD004897DB /* PlayScene.m in Sources */,
 				0D3A339C198B45DA004897DB /* CCEffectStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1859,6 +1853,7 @@
 				0D3A35BE198B45DD004897DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D3A35BF198B45DD004897DB /* Build configuration list for PBXNativeTarget "Chase" */ = {
 			isa = XCConfigurationList;
@@ -1867,6 +1862,7 @@
 				0D3A35C1198B45DD004897DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

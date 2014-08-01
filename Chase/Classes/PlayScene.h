@@ -19,11 +19,11 @@
  *  Main usage for CCLayer now, is to make colored backgrounds (rectangles)
  *
  */
-@interface IntroScene : CCScene
+@interface PlayScene : CCScene
 
 // -----------------------------------------------------------------------
 
-+ (IntroScene *)scene;
++ (PlayScene *)scene;
 - (id)init;
 
 // -----------------------------------------------------------------------
