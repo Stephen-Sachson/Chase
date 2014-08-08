@@ -201,6 +201,9 @@
 		0D3A35AF198B45DD004897DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35AE198B45DD004897DB /* main.m */; };
 		0D3A35B3198B45DD004897DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35B2198B45DD004897DB /* AppDelegate.m */; };
 		0D3A35B9198B45DD004897DB /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A35B8198B45DD004897DB /* PlayScene.m */; };
+		0D3C205E19946917008E1399 /* ball-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C205D19946917008E1399 /* ball-hd.png */; };
+		0D3C206019946A5D008E1399 /* flame.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C205F19946A5D008E1399 /* flame.plist */; };
+		0D943328199079DD00FA9BDC /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D943327199079DD00FA9BDC /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -610,6 +613,9 @@
 		0D3A35B2198B45DD004897DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		0D3A35B7198B45DD004897DB /* PlayScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlayScene.h; path = Classes/PlayScene.h; sourceTree = "<group>"; };
 		0D3A35B8198B45DD004897DB /* PlayScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PlayScene.m; path = Classes/PlayScene.m; sourceTree = "<group>"; };
+		0D3C205D19946917008E1399 /* ball-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-hd.png"; sourceTree = "<group>"; };
+		0D3C205F19946A5D008E1399 /* flame.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flame.plist; sourceTree = "<group>"; };
+		0D943327199079DD00FA9BDC /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -683,6 +689,9 @@
 		0D3A3352198B45DA004897DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D943327199079DD00FA9BDC /* bg.png */,
+				0D3C205D19946917008E1399 /* ball-hd.png */,
+				0D3C205F19946A5D008E1399 /* flame.plist */,
 				0D3A3353198B45DA004897DB /* Default.png */,
 				0D3A3355198B45DA004897DB /* Default@2x.png */,
 				0D3A3357198B45DA004897DB /* Default-568h@2x.png */,
@@ -1498,6 +1507,8 @@
 			files = (
 				0D3A3356198B45DA004897DB /* Default@2x.png in Resources */,
 				0D3A3369198B45DA004897DB /* Icon-120.png in Resources */,
+				0D3C206019946A5D008E1399 /* flame.plist in Resources */,
+				0D3C205E19946917008E1399 /* ball-hd.png in Resources */,
 				0D3A335F198B45DA004897DB /* Icon@2x.png in Resources */,
 				0D3A3371198B45DA004897DB /* Icon-Small@2x.png in Resources */,
 				0D3A3363198B45DA004897DB /* Icon-72@2x.png in Resources */,
@@ -1517,6 +1528,7 @@
 				0D3A3367198B45DA004897DB /* Icon-76@2x.png in Resources */,
 				0D3A3375198B45DA004897DB /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				0D3A3365198B45DA004897DB /* Icon-76.png in Resources */,
+				0D943328199079DD00FA9BDC /* bg.png in Resources */,
 				0D3A337A198B45DA004897DB /* iTunesArtwork@2x in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
